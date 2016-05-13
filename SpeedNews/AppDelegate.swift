@@ -17,9 +17,31 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        
+        
+        
+        
+        //加载广告图
+        self.loadAdView()
+        
+        
         return true
     }
 
+    
+    func loadAdView(){
+        
+        let imgNamesArray = ["iPhone4","iPhone5","iPhone6","iPhone6P"]
+        let adView = LaunchADView.createADViewWithImagePhone4_5_6_6PNames(imgNamesArray, ADImageName: "ad.png")
+        adView.adImageView?.clipsToBounds = true
+        adView.tapAdViewBlock = ({ Void in
+            print("点击广告图")
+            UIApplication.sharedApplication().openURL(NSURL(string: "https://itunes.apple.com/us/app/mo-fang-pin-tu/id1077968617?l=zh&ls=1&mt=8")!)
+        })
+        
+    }
+    
     func applicationWillResignActive(application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
         // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.

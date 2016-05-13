@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9473CFFC1CE5B7760003CAF3 /* ConfigSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9473CFFB1CE5B7760003CAF3 /* ConfigSetting.swift */; };
+		9473CFFE1CE5BA600003CAF3 /* LaunchADView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9473CFFD1CE5BA600003CAF3 /* LaunchADView.swift */; };
+		9473D0001CE5C1E30003CAF3 /* ad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9473CFFF1CE5C1E30003CAF3 /* ad.png */; };
+		9473D0021CE5C4370003CAF3 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9473D0011CE5C4370003CAF3 /* MainViewController.swift */; };
+		9473D0041CE5C4A30003CAF3 /* SNScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9473D0031CE5C4A30003CAF3 /* SNScrollView.swift */; };
+		9473D0061CE5D0EB0003CAF3 /* ShowDownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9473D0051CE5D0EB0003CAF3 /* ShowDownView.swift */; };
 		947660A01CE5AFBF00594139 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9476609F1CE5AFBF00594139 /* AppDelegate.swift */; };
 		947660A21CE5AFBF00594139 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947660A11CE5AFBF00594139 /* ViewController.swift */; };
 		947660A51CE5AFBF00594139 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 947660A31CE5AFBF00594139 /* Main.storyboard */; };
@@ -35,6 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9473CFFB1CE5B7760003CAF3 /* ConfigSetting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigSetting.swift; sourceTree = "<group>"; };
+		9473CFFD1CE5BA600003CAF3 /* LaunchADView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchADView.swift; sourceTree = "<group>"; };
+		9473CFFF1CE5C1E30003CAF3 /* ad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ad.png; sourceTree = "<group>"; };
+		9473D0011CE5C4370003CAF3 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		9473D0031CE5C4A30003CAF3 /* SNScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SNScrollView.swift; sourceTree = "<group>"; };
+		9473D0051CE5D0EB0003CAF3 /* ShowDownView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowDownView.swift; sourceTree = "<group>"; };
 		9476609C1CE5AFBF00594139 /* SpeedNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeedNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9476609F1CE5AFBF00594139 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		947660A11CE5AFBF00594139 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,7 +112,13 @@
 			isa = PBXGroup;
 			children = (
 				9476609F1CE5AFBF00594139 /* AppDelegate.swift */,
+				9473CFFB1CE5B7760003CAF3 /* ConfigSetting.swift */,
+				9473CFFD1CE5BA600003CAF3 /* LaunchADView.swift */,
+				9473D0031CE5C4A30003CAF3 /* SNScrollView.swift */,
+				9473D0011CE5C4370003CAF3 /* MainViewController.swift */,
+				9473D0051CE5D0EB0003CAF3 /* ShowDownView.swift */,
 				947660A11CE5AFBF00594139 /* ViewController.swift */,
+				9473CFFF1CE5C1E30003CAF3 /* ad.png */,
 				947660A31CE5AFBF00594139 /* Main.storyboard */,
 				947660A91CE5AFBF00594139 /* Assets.xcassets */,
 				947660AB1CE5AFBF00594139 /* LaunchScreen.storyboard */,
@@ -235,6 +253,7 @@
 				947660AD1CE5AFBF00594139 /* LaunchScreen.storyboard in Resources */,
 				947660AA1CE5AFBF00594139 /* Assets.xcassets in Resources */,
 				947660A51CE5AFBF00594139 /* Main.storyboard in Resources */,
+				9473D0001CE5C1E30003CAF3 /* ad.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,8 +279,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				947660A21CE5AFBF00594139 /* ViewController.swift in Sources */,
+				9473D0061CE5D0EB0003CAF3 /* ShowDownView.swift in Sources */,
 				947660A01CE5AFBF00594139 /* AppDelegate.swift in Sources */,
+				9473CFFC1CE5B7760003CAF3 /* ConfigSetting.swift in Sources */,
+				9473D0021CE5C4370003CAF3 /* MainViewController.swift in Sources */,
+				9473D0041CE5C4A30003CAF3 /* SNScrollView.swift in Sources */,
 				947660A81CE5AFBF00594139 /* SpeedNews.xcdatamodeld in Sources */,
+				9473CFFE1CE5BA600003CAF3 /* LaunchADView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,6 +512,7 @@
 				947660C91CE5AFC000594139 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		947660CA1CE5AFC000594139 /* Build configuration list for PBXNativeTarget "SpeedNewsTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +521,7 @@
 				947660CC1CE5AFC000594139 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		947660CD1CE5AFC000594139 /* Build configuration list for PBXNativeTarget "SpeedNewsUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +530,7 @@
 				947660CF1CE5AFC000594139 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
